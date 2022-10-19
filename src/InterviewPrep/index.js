@@ -1,8 +1,8 @@
 function InterviewPrep() {
   return (
-    <div>
-      <h4> TLDR </h4>
-      <p>
+    <div class="m-10">
+      <h4 class="font-medium leading-tight text-4xl mt-0 mb-2 text-blue-600"> TLDR </h4>
+      <p class="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
         This is a summary of the things I did during my interview and
         study process throughout my preperation. The gist of this
         is to start prepping months ahead of time to allow yourself to learn
@@ -10,9 +10,9 @@ function InterviewPrep() {
         under 15 mins, mediums in 20-30 mins and hards in under 45 mins.
       </p>
 
-      <h4>Introduction</h4>
-      <h3>Background</h3>
-      <p>
+      <h4 class="font-medium leading-tight text-4xl mt-0 mb-2 text-blue-600">Introduction</h4>
+      <h3 class="font-medium leading-tight text-3xl mt-0 mb-2 text-blue-600">Background</h3>
+      <p class="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
         I Studied at UMass Dartmouth (NOT the ivy league school) and graduated
         at 20 in 2019. From 2019 to 2020 I worked at
         <a href="https://www.dell.com/en-us/blog/tags/dell-emc/">Dell EMC</a>,
@@ -28,8 +28,8 @@ function InterviewPrep() {
         you'll need that. Ended up not going because I got offers.
       </p>
 
-      <h3>Duration of Studies</h3>
-      <p>
+      <h3 class="font-medium leading-tight text-3xl mt-0 mb-2 text-blue-600">Duration of Studies</h3>
+      <p class="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
         I started intensely studying for algo/ds mid July 2021 and practiced
         leetcoding and mock interviews until the (virtual) onsite interviews,
         which occured mid April 2022 <b>(9 MONTHS OF PREPARATION)</b>.
@@ -45,8 +45,8 @@ function InterviewPrep() {
         as well.
       </p>
 
-      <h3>Offers</h3>
-      <p>
+      <h3 class="font-medium leading-tight text-3xl mt-0 mb-2 text-blue-600">Offers</h3>
+      <p class="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
         I was able to get an Amazon internship and return offer (SDE1 ~200k),
         and a Google offer (L3 ~230k), both in nyc.
       </p>
