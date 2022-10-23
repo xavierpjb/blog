@@ -1,6 +1,7 @@
 function InterviewPrep() {
   return (
-    <div class="m-10">
+    <div class="flex h-screen">
+    <div class="m-auto max-w-4xl p-5">
       <h2 class="font-medium leading-tight text-4xl mt-0 mb-2 text-blue-600"> TLDR </h2>
       <p class="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
         This is a summary of the things I did during my interview and
@@ -108,6 +109,37 @@ function InterviewPrep() {
         algorithmic problems under timed constraints, but it's overkill. Start
         using this if you find leetcode mediums too easy.
       </p>
+
+      <h3 class="font-medium leading-tight text-3xl mt-0 mb-2 text-blue-400">
+        Learning how to Leetcode
+      </h3>
+
+      <h4 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-300">
+        <a href="https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850">
+          Cracking the coding interview
+        </a>
+      </h4>
+      <p class="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
+        The OG of how to take coding interviews. Reading everything, up to the 
+        exercises, is useful in setting up what to expect in a coding interiew.
+        it's a bit outdated now because coding interviews are no longer don't at
+        whiteboards. Replace anything with a white by a text editor and you should
+        be able to use this book.
+      </p>
+      <p class="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
+        The most useful part of this book (or what I found myself looking at
+        constantly) was the table which consists of the different topics to 
+        study 
+      </p>
+      <div
+        class="flex justify-center"
+      >
+        <img
+          src="https://miro.medium.com/max/954/1*cATM9kYhtwResSoDkwlP7A.png"
+          alt="Table of topic in algo ds"
+        />
+      </div>
+    </div>
     </div>
   );
 }
