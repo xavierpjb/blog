@@ -132,13 +132,48 @@ function InterviewPrep() {
           study
         </p>
         <div
-          class="flex justify-center"
+          class="flex justify-center m-5"
         >
           <img
             src="https://miro.medium.com/max/954/1*cATM9kYhtwResSoDkwlP7A.png"
             alt="Table of topic in algo ds"
           />
         </div>
+
+        <h4 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-300">
+          <a href="https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU">
+            Blind 75
+          </a>
+        </h4>
+        <p class="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
+          The GOD SENT leetcode guide. This is the gold standard of topics and
+          problems to solve and understand on leetcode. Use these questions
+          under timed constraints when you want to simulate a real interview.
+          If you find yourself unable to solve any of these problems, go to
+          the comment section and read some of the most upvoted solutions and
+          understand the idea or pattern applied to solve it.
+        </p>
+
+        <h4 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-300">
+          <a href="https://www.youtube.com/watch?v=iL6Iphg77DA&list=PLTh5zOK8tL23zhRRD5gFvFQ69D7hUqiAs">
+            Welcome to the coding interview: You Suck
+          </a>
+        </h4>
+        <p class="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
+          This playlist goes over tips on how to approach leetcode problem
+        </p>
+
+        <h4 class="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-300">
+          <a href="https://www.pramp.com/#/">
+            PraMP
+          </a>
+        </h4>
+        <p class="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
+          Practice Makes Perfect (Pramp) is a great way to get free mock
+          interviews and also take the role of the interviewer. Take these
+          as an opportunity to get better at articulating your thought process
+          when problem solving.
+        </p>
       </div>
     </div>
   );
