@@ -15,7 +15,7 @@ function InterviewPrep() {
         <h3 className="font-medium leading-tight text-3xl mt-0 mb-2 text-amber-500">Background</h3>
         <p className="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
           I Studied at UMass Dartmouth (NOT the ivy league school) and graduated
-          at 20 in 2019. From 2019 to 2020 I worked at
+          at 20 in 2019. From 2019 to 2020 I worked at&nbsp;
           <a href="https://www.dell.com/en-us/blog/tags/dell-emc/">Dell EMC</a>,
           where I spent a year doing front end development.
 
@@ -59,7 +59,10 @@ function InterviewPrep() {
           algorithms and data structures. My studies consisted of:
         </p>
         <h4 className="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">
-          <a href="https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb">
+          <a 
+            href="https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb"
+            className="hover:underline"
+          >
             MIT 2011 YouTube lectures
           </a>
         </h4>
@@ -77,7 +80,10 @@ function InterviewPrep() {
         </p>
 
         <h4 className="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">
-          <a href="https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844">
+          <a
+            href="https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844"
+            className="hover:underline"
+          >
             Introduction to Algorithms by CLRS
           </a>
         </h4>
@@ -88,7 +94,10 @@ function InterviewPrep() {
         </p>
 
         <h4 className="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">
-          <a href="https://www.youtube.com/watch?v=ZA-tUyM_y7s&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY">
+          <a
+            href="https://www.youtube.com/watch?v=ZA-tUyM_y7s&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY"
+            className="hover:underline"
+          >
             MIT 2020 Youtube lectures
           </a>
         </h4>
@@ -100,7 +109,10 @@ function InterviewPrep() {
         </p>
 
         <h4 className="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">
-          <a href="https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8">
+          <a
+            href="https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8"
+            className="hover:underline"
+          >
             [OPTIONAL] Competitive Programming 3
           </a>
         </h4>
@@ -115,7 +127,10 @@ function InterviewPrep() {
         </h3>
 
         <h4 className="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">
-          <a href="https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850">
+          <a 
+            href="https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850"
+            className="hover:underline"
+          >
             Cracking the coding interview
           </a>
         </h4>
@@ -141,7 +156,10 @@ function InterviewPrep() {
         </div>
 
         <h4 className="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">
-          <a href="https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU">
+          <a
+            href="https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU"
+            className="hover:underline"
+          >
             Blind 75
           </a>
         </h4>
@@ -155,7 +173,10 @@ function InterviewPrep() {
         </p>
 
         <h4 className="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">
-          <a href="https://www.youtube.com/watch?v=iL6Iphg77DA&list=PLTh5zOK8tL23zhRRD5gFvFQ69D7hUqiAs">
+          <a 
+            href="https://www.youtube.com/watch?v=iL6Iphg77DA&list=PLTh5zOK8tL23zhRRD5gFvFQ69D7hUqiAs"
+            className="hover:underline"
+          >
             Welcome to the coding interview: You Suck
           </a>
         </h4>
@@ -164,7 +185,10 @@ function InterviewPrep() {
         </p>
 
         <h4 className="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">
-          <a href="https://www.pramp.com/#/">
+          <a 
+            href="https://www.pramp.com/#/"
+            className="hover:underline"
+          >
             PraMP
           </a>
         </h4>
