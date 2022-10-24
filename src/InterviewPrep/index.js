@@ -1,3 +1,4 @@
+import externalLink from '../images/icon-external-link128.png';
 function InterviewPrep() {
   return (
     <div className="bg-slate-200 flex p-5">
@@ -59,11 +60,11 @@ function InterviewPrep() {
           algorithms and data structures. My studies consisted of:
         </p>
         <h4 className="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">
-          <a 
+          <a
             href="https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb"
-            className="hover:underline"
+            className="flex hover:underline "
           >
-            MIT 2011 YouTube lectures
+            MIT 2011 YouTube lectures <img src={externalLink} className="w-8 h-8" />
           </a>
         </h4>
         <p className="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
@@ -82,9 +83,9 @@ function InterviewPrep() {
         <h4 className="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">
           <a
             href="https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844"
-            className="hover:underline"
+            className="flex hover:underline"
           >
-            Introduction to Algorithms by CLRS
+            Introduction to Algorithms by CLRS <img src={externalLink} className="w-8 h-8" />
           </a>
         </h4>
         <p className="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
@@ -96,9 +97,10 @@ function InterviewPrep() {
         <h4 className="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">
           <a
             href="https://www.youtube.com/watch?v=ZA-tUyM_y7s&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY"
-            className="hover:underline"
+            className="flex hover:underline"
           >
-            MIT 2020 Youtube lectures
+            MIT 2020 Youtube lectures <img src={externalLink} className="w-8 h-8" />
+
           </a>
         </h4>
         <p className="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
@@ -111,9 +113,10 @@ function InterviewPrep() {
         <h4 className="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">
           <a
             href="https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8"
-            className="hover:underline"
+            className="flex hover:underline"
           >
-            [OPTIONAL] Competitive Programming 3
+            [OPTIONAL] Competitive Programming 3 <img src={externalLink} className="w-8 h-8" />
+
           </a>
         </h4>
         <p className="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
@@ -127,11 +130,12 @@ function InterviewPrep() {
         </h3>
 
         <h4 className="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">
-          <a 
+          <a
             href="https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850"
-            className="hover:underline"
+            className="flex hover:underline"
           >
-            Cracking the coding interview
+            Cracking the coding interview <img src={externalLink} className="w-8 h-8" />
+
           </a>
         </h4>
         <p className="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
@@ -158,9 +162,10 @@ function InterviewPrep() {
         <h4 className="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">
           <a
             href="https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU"
-            className="hover:underline"
+            className="flex hover:underline"
           >
-            Blind 75
+            Blind 75 <img src={externalLink} className="w-8 h-8" />
+
           </a>
         </h4>
         <p className="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
@@ -173,11 +178,12 @@ function InterviewPrep() {
         </p>
 
         <h4 className="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">
-          <a 
+          <a
             href="https://www.youtube.com/watch?v=iL6Iphg77DA&list=PLTh5zOK8tL23zhRRD5gFvFQ69D7hUqiAs"
-            className="hover:underline"
+            className="flex hover:underline"
           >
-            Welcome to the coding interview: You Suck
+            Welcome to the coding interview: You Suck <img src={externalLink} className="w-8 h-8" />
+
           </a>
         </h4>
         <p className="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
@@ -185,11 +191,11 @@ function InterviewPrep() {
         </p>
 
         <h4 className="font-medium leading-tight text-2xl mt-0 mb-2 text-blue-600">
-          <a 
+          <a
             href="https://www.pramp.com/#/"
-            className="hover:underline"
+            className="flex hover:underline"
           >
-            PraMP
+            PraMP <img src={externalLink} className="w-8 h-8" />
           </a>
         </h4>
         <p className="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
