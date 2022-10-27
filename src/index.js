@@ -5,6 +5,7 @@ import {HashRouter, Route, Routes} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import {InterviewPrep} from './InterviewPrep';
+import {MathPrep} from './Math';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +15,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/interview-prep" element={<InterviewPrep />} />
+        <Route path="/math-prep" element={<MathPrep />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>
